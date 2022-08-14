@@ -61,7 +61,13 @@
     a:hover{
         color:red;
     }
+    
 </style>
+<script>
+    function myFunction(element, color){
+        element.style.color= color;
+    }
+</script>
 <html>
     <head>
         <meta charset="utf-8" />
@@ -82,7 +88,7 @@
     
                        </tr>
         <tr>
-            <td class="button" for="btnControl" style="height: 20%"> <a href="Young100.html">100 <br />points</a></td>
+            <td class="button" for="btnControl" style="height: 20%" onclick="myFunction(this, 'red')"> <a href="Young100.html">100 <br />points</a></td>
             <td class="button" for="btnControl" style="height: 20%"> <a href="Adult100.html">100 <br />points</a></td>
             <td class="button" for="btnControl" style="height: 20%"> <a href="Light100.html">100 <br />points</a></td>
             
